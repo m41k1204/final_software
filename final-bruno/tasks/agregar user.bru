@@ -1,0 +1,19 @@
+meta {
+  name: agregar user
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/tasks/7a209654-94e2-462c-99be-4d8aaf94fd80/users
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "usuario" : "user@example.com",
+    "rol" : "programador",
+    "accion" : "adicionar"
+  }
+}

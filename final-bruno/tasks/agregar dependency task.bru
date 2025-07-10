@@ -1,0 +1,18 @@
+meta {
+  name: agregar dependency task
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:5000/tasks/7a209654-94e2-462c-99be-4d8aaf94fd80/dependencies
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "dependencytaskid" : "49314828-6c89-45fa-88a3-9cb8a6e05b28",
+    "accion" : "adicionar"
+  }
+}

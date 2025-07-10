@@ -1,0 +1,17 @@
+meta {
+  name: Modify Task
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5000/tasks/7a209654-94e2-462c-99be-4d8aaf94fd80
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "estado" : "pendiente"
+  }
+}

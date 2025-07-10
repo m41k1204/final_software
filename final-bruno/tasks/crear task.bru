@@ -1,0 +1,20 @@
+meta {
+  name: crear task
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5000/tasks
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "nombre" : "Tarea 1",
+    "descripcion" : "Descripcion 2",
+    "usuario" : "michalhinojosa@gmail.com",
+    "rol" : "programador"
+  }
+}
