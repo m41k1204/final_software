@@ -1,45 +1,19 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Michael",
-      "email": "michalhinojosa@gmail.com"
-    },
-    {
-      "id": 2,
-      "name": "Michael",
-      "email": "user@example.com"
-    },
-    {
       "id": 3,
       "name": "Michael",
       "email": "auser@example.com"
+    },
+    {
+      "id": 1,
+      "name": "Michael",
+      "email": "michalhinojosa@gmail.com"
     }
   ],
   "tasks": [
     {
-      "id": "347f1eb2-4c9f-4b60-a4aa-37ad089f935b",
-      "nombre": "Tarea 1",
-      "descripcion": "Descripcion 1",
-      "estado": "finalizada",
-      "asignaciones": [
-        {
-          "usuario_alias": "michalhinojosa@gmail.com",
-          "rol": "programador",
-          "fecha": "2025-07-10T00:52:02"
-        },
-        {
-          "usuario_alias": "user@example.com",
-          "rol": "programador",
-          "fecha": "2025-07-10T01:04:19"
-        }
-      ],
-      "dependencias": [
-        "49314828-6c89-45fa-88a3-9cb8a6e05b28"
-      ]
-    },
-    {
-      "id": "49314828-6c89-45fa-88a3-9cb8a6e05b28",
+      "id": "50867279-2f68-458c-b91c-a7e8fd34ba4b",
       "nombre": "Tarea 1",
       "descripcion": "Descripcion 2",
       "estado": "pendiente",
@@ -47,31 +21,31 @@
         {
           "usuario_alias": "michalhinojosa@gmail.com",
           "rol": "programador",
-          "fecha": "2025-07-10T01:05:40"
+          "fecha": "2025-07-10T01:58:06"
+        },
+        {
+          "usuario_alias": "auser@example.com",
+          "rol": "programador",
+          "fecha": "2025-07-10T01:58:53"
+        }
+      ],
+      "dependencias": [
+        "7bdc3653-00ca-453d-ab33-18c7ba679ce8"
+      ]
+    },
+    {
+      "id": "7bdc3653-00ca-453d-ab33-18c7ba679ce8",
+      "nombre": "Tarea 1",
+      "descripcion": "Descripcion 2",
+      "estado": "pendiente",
+      "asignaciones": [
+        {
+          "usuario_alias": "michalhinojosa@gmail.com",
+          "rol": "programador",
+          "fecha": "2025-07-10T01:59:12"
         }
       ],
       "dependencias": []
-    },
-    {
-      "id": "7a209654-94e2-462c-99be-4d8aaf94fd80",
-      "nombre": "Tarea 1",
-      "descripcion": "Descripcion 2",
-      "estado": "pendiente",
-      "asignaciones": [
-        {
-          "usuario_alias": "michalhinojosa@gmail.com",
-          "rol": "programador",
-          "fecha": "2025-07-10T01:36:43"
-        },
-        {
-          "usuario_alias": "user@example.com",
-          "rol": "programador",
-          "fecha": "2025-07-10T01:37:16"
-        }
-      ],
-      "dependencias": [
-        "49314828-6c89-45fa-88a3-9cb8a6e05b28"
-      ]
     }
   ]
 }
